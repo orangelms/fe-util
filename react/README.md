@@ -1,7 +1,7 @@
-# @react-component/switch
+# @fe-util/react
 
-[![NPM version](https://img.shields.io/npm/v/@react-component/switch.svg?style=flat)](https://npmjs.org/package/@react-component/switch)
-[![NPM downloads](http://img.shields.io/npm/dm/@react-component/switch.svg?style=flat)](https://npmjs.org/package/@react-component/switch)
+[![NPM version](https://img.shields.io/npm/v/@fe-util/react.svg?style=flat)](https://npmjs.org/package/@fe-util/react)
+[![NPM downloads](http://img.shields.io/npm/dm/@fe-util/react.svg?style=flat)](https://npmjs.org/package/@fe-util/react)
 
 React components foundation
 
