@@ -1,8 +1,7 @@
 ---
 hero:
-  title: @react-component/react
-  description: Common Utils For React Component
+  title: @fe-util/react
+  description: React components foundation
 ---
 
-
-
+<embed src="../README.md"></embed>

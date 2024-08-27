@@ -80,6 +80,7 @@
     "ts-jest": "^29.1.0",
     "@types/jest": "^24.9.1",
     "conventional-changelog": "^5.1.0",
-    "conventional-changelog-cli": "^4.1.0"
+    "conventional-changelog-cli": "^4.1.0",
+    "typescript": "^5.5.4"
   }
 }
