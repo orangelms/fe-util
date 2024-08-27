@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@@/*": [".dumi/tmp/*"],
+      "@fe-util/react": ["src"],
+      "@fe-util/react/*": ["src/*", "*"],
+    }
+  },
+  "include": [".dumirc.ts", "src/**/*"],
+  "exclude": [
+    "node_modules"
+  ]
+}
