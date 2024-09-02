@@ -14,3 +14,5 @@ export {
 export { default as KeyCode } from './lib/keyCode'
 export { prettyQuery, buildUrl, urlParam } from './lib/url'
 export { stringIsEmpty, stringToBoolean, stringExtract, stringGetSize, stringSubBytes, stringRandom } from './lib/string'
+export { debounce, throttle } from './lib/method'
+

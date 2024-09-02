@@ -1,6 +1,6 @@
 {
   "name": "@fe-util/common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JS Common Utils ",
   "module": "dist/index.js",
   "keywords": [
