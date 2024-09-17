@@ -4,7 +4,7 @@
  * @param string 字符串
  */
 export function stringIsEmpty(string: string | null) {
-  return string == null || string === '' || string === undefined || (typeof string === 'undefined')
+  return string === null || string === '' || string === undefined || (typeof string === 'undefined')
 }
 
 /**
