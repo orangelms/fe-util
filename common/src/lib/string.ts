@@ -54,7 +54,7 @@ export function stringSubBytes(str: string, size: number, tail = '...') {
       .replace(/[^\x00-\xff]$/, '')          // 去掉临界双字节字符
       .replace(/([^\x00-\xff]) /g, '\x241')  // 还原
     : str
-  return substr == str ? substr : substr + tail
+  return substr === str ? substr : substr + tail
 }
 
 /**

@@ -14,7 +14,7 @@ export function prettyQuery(data: any, defaultValueMap: any = {}) {
     const val = data[key]
     const str = (val + '').trim()
     const def = key in defaultMap ? defaultMap[key] : null
-    if (val != null && str != '' && str != def) {
+    if (val !== null && str !== '' && str !== def) {
       map[key] = str
     }
     return map
@@ -23,7 +23,7 @@ export function prettyQuery(data: any, defaultValueMap: any = {}) {
 
 const rUrlParams = /^([^?]*)(?:\?)?(.*)$/
 
-const decode = (s: any) => (s != null ? decodeURIComponent(s).trim() : null)
+const decode = (s: any) => (s !== null ? decodeURIComponent(s).trim() : null)
 
 const map2Param = (map: any) => {
   const list = Object.entries(map).map(it => {
